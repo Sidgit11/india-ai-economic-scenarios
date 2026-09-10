@@ -126,7 +126,7 @@ def run(e: Econ, sc: Scenario, months=None, verbose=False):
     lC, lN, UCt, UNt = lC0, lN0, UC, UN
     fC_prev, fN_prev = fCbar, fNbar
     wCrel_prev = 0.0
-    T = int(round((e.t_end-e.t0)/h)) if months is None else months
+    T = int(round((e.t_end-e.t0)/h))+1 if months is None else months   # last row is the start of 2030
     rows = []
     guessA = None; guessB = None
     def prims(t):
