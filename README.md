@@ -4,7 +4,10 @@ The Anthropic Institute's model of how AI changes an economy ("[Scenarios for ou
 
 Same model. Same assumptions about AI. India's economy.
 
-**Live site:** `index.html` (deploys to Vercel as a static page, no build step).
+**Live site:** <https://india-ai-economic-scenarios.vercel.app>
+**Source:** <https://github.com/Sidgit11/india-ai-economic-scenarios>
+
+The site is the single `index.html` at the repo root — a static page, no build step.
 
 ## Headline results, 2030
 
